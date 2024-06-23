@@ -45,4 +45,4 @@ Please make sure to update tests as appropriate.
 - It's important to note that scraping data from LinkedIn may not align with LinkedIn's terms of service.
 - This script only scrapes publicly available information from job listings.
 - Exercise caution and ensure compliance with LinkedIn's policies and legal guidelines before using this scraper.
-- The script incorporates time delays between requests and utilizes fake user agents to mitigate the risk of blocking.
+- The script incorporates time delays between requests and utilizes fake user agents to mitigate the risk of being blocked.
