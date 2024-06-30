@@ -1,7 +1,7 @@
 # Job Scraper
 
 
-This Python script scrapes job postings from LinkedIn based on specified search criteria using **beautifulsoup**, **requests** and **fake-useragent**. It saves the scraped data into a CSV file using **pandas**.
+This Python script scrapes job postings from ro LinkedIn based on specified search criteria using **beautifulsoup**, **requests** and **fake-useragent**. It saves the scraped data into a CSV file using **pandas**.
 
 ## Features
 
