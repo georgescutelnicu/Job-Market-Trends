@@ -1,0 +1,13 @@
+/* Style for links */
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Remove image fullscreen icon */
+button[title="View fullscreen"]{
+    visibility: hidden;
+}
