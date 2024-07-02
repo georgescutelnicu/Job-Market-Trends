@@ -4,6 +4,9 @@ Skill Scope is a Streamlit-based application designed to analyze job market tren
 
 In my exploration, I noticed that job postings often required proficiency in a multitude of technologies. To streamline my own decision-making process, I created an interface that aggregates and displays this information in a centralized manner.
 
+**Note:** 
+The data for this project was scraped on June 24, 2024. Please be aware that job market trends can change rapidly, and the insights presented in this app might become less relevant over time.
+
 ## Demo App
 
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://skill-scope.streamlit.app/)
