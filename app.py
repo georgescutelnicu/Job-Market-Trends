@@ -1,12 +1,10 @@
 import streamlit as st
+import time
 
 from utils.helper_functions import load_data, count_jobs, create_markdown
 from utils.plots import plot_top_technologies, plot_education, plot_experience, plot_top_technologies_funnel, \
     plot_gauge_chart
 
-
-# Load data
-data = load_data("data/processed/data_processed.csv")
 
 # Page configuration
 st.set_page_config(
@@ -14,6 +12,11 @@ st.set_page_config(
     page_icon=":bar_chart:",
     layout="wide",
     initial_sidebar_state="expanded")
+
+# Load data
+with st.spinner("Loading data..."):
+    time.sleep(1)
+    data = load_data("data/processed/data_processed.csv")
 
 # Sidebar
 with st.sidebar:
