@@ -80,12 +80,14 @@ with st.expander('About', expanded=True):
     st.write('''
         **Skill Scope Dashboard**
 
-        This dashboard provides insights into job trends across various categories. 
+        This dashboard is designed to analyze job market trends in Romania across various categories.
 
         **Data Source**
 
-        The data used in this dashboard is sourced from [LinkedIn](https://ro.linkedin.com/).
-        
+        The data used in this dashboard is sourced from [LinkedIn](https://ro.linkedin.com/) 
+        and it was scraped on June 24, 2024.\n
+        Please be aware that job market trends can change rapidly.
+
         **Technologies Used**
 
         BeautifulSoup, Pandas,  Plotly, Streamlit.
