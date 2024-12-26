@@ -36,9 +36,7 @@ The script will generate a CSV file named <name>.csv containing the following co
 - Number of Applicants
 - Experience
 - Employment Type
--Description
-
-Please make sure to update tests as appropriate.
+- Description
 
 ## Ethical Considerations
 
